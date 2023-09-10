@@ -17,7 +17,7 @@ Welcome to the Telegram Ban All Bot, created by @oxyhu. This bot is designed to 
 
 Deploying this bot to Heroku is a breeze! Simply click the "Deploy to Heroku" button below to get started:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/PRADHAN474/BANALLBOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Ranavanshi/BANALLBOT)
 
 ### Environment Variables
 
