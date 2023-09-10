@@ -1,18 +1,18 @@
 {
-   "name": "™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍",
+   "name": "🇺𝖓𝖐𝖓𝖔𝖜𝖓🇫𝖚𝖈𝖐𝖊𝖗𝖘",
    "description": "POWERFULLY BAN ALL BOT",
-   "repository": "https://github.com/PRADHAN474/BANALLBOT",
+   "repository": "https://github.com/Ranavanshi/BANALLBOT",
    "logo": "https://graph.org/file/b0825ba6490d2aa6a6afd.jpg",
    "image": "heroku/python",
    "env": {
       "API_ID": {
         "description": "",
-        "value": "20310034",
+        "value": "27701340",
         "required": true
       },
       "API_HASH": {
         "description": "",
-        "value": "e0d2c11f4ba291ce596868e73df87519",
+        "value": "76a0e2dbea31deca7205225bf6d9862d",
         "required": true
       },
       "BOT_TOKEN": {
@@ -22,7 +22,7 @@
       },      
       "SUDO": {
             "description": "",
-            "value": "5059737154 5911205161",
+            "value": "1995154708 5695560295 5969309429 6512464039 6617592823",
             "required": true  
       }
    },
