@@ -111,7 +111,7 @@ async def banall(event):
          admin = RiZ.admin_rights
          creator = RiZ.creator
          if not admin and not creator:
-              return await event.reply("I Don't have sufficient Rights !!")
+              return await event.reply("Gaddari karbe tor bahin ke chodo 👻👻 !!")
          RiZoeL = await Riz.send_message(event.chat_id, "**Hello !! I'm Alive**")
          admins = await event.client.get_participants(event.chat_id, filter=ChannelParticipantsAdmins)
          admins_id = [i.id for i in admins]
@@ -164,7 +164,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("abhi to jaa raha hu beta par bhulna nahi mere ko.......! ")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -173,7 +173,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("Hattt bahinchod......... ")
             except Exception as e:
                 await event.edit(str(e))   
           
@@ -192,6 +192,6 @@ async def restart(e):
 
 
 print("\n\n")
-print("Your Ban All Bot Deployed Successfully ✅")
+print("Your Ban All Bot Deployed Successfully ✅ jaaa ab pel le bete!!! ")
 
 Riz.run_until_disconnected()
