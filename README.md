@@ -1,6 +1,6 @@
-# ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Ban All Bot
+# ™°‌ 🫧 𝕯𝖎𝖛𝖞𝖆𝖓𝖘𝖍𝖚 𝕽𝖆𝖓𝖆 Ban All Bot
 
-![™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍](https://graph.org/file/b0825ba6490d2aa6a6afd.jpg) <!-- Add your bot's logo here -->
+![™°‌ 🫧 𝕯𝖎𝖛𝖞𝖆𝖓𝖘𝖍𝖚 𝕽𝖆𝖓𝖆](http://telegra.ph/file/a06f6181d77a18161063c.jpg) <!-- Add your bot's logo here -->
 
 Welcome to the Telegram Ban All Bot, created by @oxyhu. This bot is designed to streamline administrative tasks in your Telegram group, making it easier to manage your community.
 
@@ -38,7 +38,7 @@ If you encounter issues or have suggestions for improvements, feel free to open 
 
 ## Telegram Support
 
-Have questions or need assistance? Join our [Support Group](https://t.me/BWANDARLOK) for help!
+Have questions or need assistance? Join our [Support Group](https://t.me/webnet_support_chats) for help!
 
 ## Credits
 
