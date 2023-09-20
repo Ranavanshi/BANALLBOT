@@ -1,6 +1,6 @@
-#  Copyright (c) 2022 @oxyhu - OXYEGN
+#  Copyright (c) 2022 @ranavanahi_divy - DIVYANSHU 
 # Telegram Ban All Bot 
-# Creator - oxygen
+# Creator - divyanshu 
 
 import logging
 import re
