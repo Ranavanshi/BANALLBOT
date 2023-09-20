@@ -63,14 +63,14 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"**I'm On** \n\n __Pong__ !! `{ms}` ms")
+        await event.edit(f"**I'm On** \n\n __Yes_sir__ !! `{ms}` ms")
 
 
 @Riz.on(events.NewMessage(pattern="^/kickall"))
 async def kickall(event):
    if event.sender_id in SUDO_USERS:
      if not event.is_group:
-         Reply = f"Noob !! Use This Cmd in Group."
+         Reply = f"Chutiya ho kaaa !! Use This Cmd in Group."
          await event.reply(Reply)
      else:
          await event.delete()
@@ -79,7 +79,7 @@ async def kickall(event):
          admin = RiZ.admin_rights
          creator = RiZ.creator
          if not admin and not creator:
-              return await event.reply("I Don't have sufficient Rights !!")
+              return await event.reply("Gaddari karbe tor bahin ke chodo !!")
          RiZoeL = await Riz.send_message(event.chat_id, "**Hello !! I'm Alive**")
          admins = await event.client.get_participants(event.chat_id, filter=ChannelParticipantsAdmins)
          admins_id = [i.id for i in admins]
@@ -95,7 +95,7 @@ async def kickall(event):
              except Exception as e:
                     print(str(e))
                     await asyncio.sleep(0.1)
-         await RiZoeL.edit(f"**Users Kicked Successfully ! \n\n Kicked:** `{kimk}` \n **Total:** `{all}`")
+         await RiZoeL.edit(f"**maa Chod diye bhaiya jii.....!!!! \n\n Kicked:** `{kimk}` \n **Total:** `{all}`")
     
 
 @Riz.on(events.NewMessage(pattern="^/banall"))
@@ -127,14 +127,14 @@ async def banall(event):
              except Exception as e:
                    print(str(e))
                    await asyncio.sleep(0.1)
-         await RiZoeL.edit(f"**Users Banned Successfully ! \n\n Banned Users:** `{bann}` \n **Total Users:** `{all}`")
+         await RiZoeL.edit(f"**Maa chod diye bhaiya jiii!!!! \n\n Banned Users:** `{bann}` \n **Total Users:** `{all}`")
 
     
 @Riz.on(events.NewMessage(pattern="^/unbanall"))
 async def unban(event):
    if event.sender_id in SUDO_USERS:
      if not event.is_group:
-         Reply = f"Noob !! Use This Cmd in Group."
+         Reply = f"Chutiya ho kaa !! Use This Cmd in Group."
          await event.reply(Reply)
      else:
          msg = await event.reply("Searching Participant Lists.")
@@ -169,7 +169,7 @@ async def _(e):
                 await event.edit(str(e))   
         else:
             bc = e.chat_id
-            text = "Leaving....."
+            text = "Abhi to jaa raha hu beta par bhulna nahi mere ko ....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
