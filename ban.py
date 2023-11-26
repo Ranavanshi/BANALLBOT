@@ -63,8 +63,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"**I'm On** \n\n __Yes_sir__ !! `{ms}` ms")
-
+        await event.edit(f"**⏤‌•꯭꯭𝐍𝐎𝐎𝐁_𝐒𝐀𝐕𝐕𝐘 𓆪™** \n\n welcome back commander 👿 !! `{ms}` ms")
 
 @Riz.on(events.NewMessage(pattern="^/kickall"))
 async def kickall(event):
@@ -95,7 +94,7 @@ async def kickall(event):
              except Exception as e:
                     print(str(e))
                     await asyncio.sleep(0.1)
-         await RiZoeL.edit(f"**maa Chod diye bhaiya jii.....!!!! \n\n Kicked:** `{kimk}` \n **Total:** `{all}`")
+         await RiZoeL.edit(f"**maa Chod diye bhaiya jii.....! \n\n Kicked:** `{kimk}` \n **Total:** `{all}`")
     
 
 @Riz.on(events.NewMessage(pattern="^/banall"))
@@ -127,7 +126,7 @@ async def banall(event):
              except Exception as e:
                    print(str(e))
                    await asyncio.sleep(0.1)
-         await RiZoeL.edit(f"**Maa chod diye bhaiya jiii!!!! \n\n Banned Users:** `{bann}` \n **Total Users:** `{all}`")
+         await RiZoeL.edit(f"**Maa chod diye bhaiya jiii.......!!!! \n\n Banned Users:** `{bann}` \n **Total Users:** `{all}`")
 
     
 @Riz.on(events.NewMessage(pattern="^/unbanall"))
